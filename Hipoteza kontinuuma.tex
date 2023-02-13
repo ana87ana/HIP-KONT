@@ -1,0 +1,40 @@
+
+\documentclass[12pt]{report}
+\usepackage[croatian]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+\title{Hipoteza kontinuuma}
+
+\author{Ajhorn Maja, Rogalo Ana}
+
+\begin{document}
+\maketitle
+\onehalfspacing
+
+\section{Uvod}
+U ovom radu planiramo objasniti hipotezu kontinuuma, poznata i pod imenom Cantorov teorem. Prvi put je uspostavljuje Georg Cantor i hipoteza se našla na prvom mjestu popisa važnih matematičkih otvorenih pitanja, popis kojeg je sastavio David Hilbert te ga je 1900. godine predstavio na konferenciji u Parizu. Hipoteza kontinuuma glasi da ne postoji skup čiji je kardinalni broj veći od kardinalnog broja skupa realnih brojeva niti skup čiji je kardinalni broj manji od kardinalnog broja skupa cijelih brojeva. Nakon samog predstavljanja hipoteze, mnogi su je pokušali dokazati ili oboriti, no nitko nije došao do konkretnog odgovora. Najdetaljniju obradu nam je dao Paul Cohen. Mi ćemo u našem radu predstaviti matematičke izvode za hipotezu kontinuuma. No, kako bi mogli uopće počet objašnjavati hipotezu prvo moramo objasniti pojam kardinalnosti.
+
+\section{Kardinalnost}
+Kardinalnost je broj elemenata koji se nalaze unutar jednog skupa. Taj pojam prvi put uvodi Georg Cantor oko 1880. godine. Sa malim, konačnim skupovima možemo očito odrediti kardinalni broj, samo sve elemente u skupu prebrojimo npr. A=\{ 1,2,3 \}, $|A| = 3$. Kada imamo beskonačne skupove kardinalni broj je malo teže odrediti, te proučavajući beskonačne skupove i njihove kardinalne brojeve, Cantor dolazi do zaključka da postoje beskonačni prebrojivi skupovi i beskonačni neprebrojivi skupovi. Skup je prebrojiv ako njegove članove možemo posložiti redoslijedno npr. N = \{ 1,2,3,4,...\}, Z = \{...,-1,0,1,...\}. Takvi skupovi su prirodni brojevi, cijeli brojevi i racionalni brojevi te svi njihovi beskonačni podskupovi. Isto tako utvrđuje situaciju u kojoj dva skupa imaju jednaki broj elemenata tj. jednaki kardinalni broj. Dva skupa A i B imaju isti kardinalni broj ako za svaki broj u skupu A postoji broj u skupu B i obratno tj. da postoji 1-1 korespondencija među skupovima($\forall a \in A)(\exists b \in B)$$\wedge$($\forall b \in B$)($\exists a \in A$) $\Rightarrow$$|A|=|B|$. 
+
+\section{Hipoteza kontinuuma}
+Cantor određuje kardinalni broj skupa prirodnih brojeva. Ima ih beskonačno mnogo te ih on označava sa $\aleph_0$. Nakon toga odlučuje usporediti kardinalne brojeve skupa prirodnih brojeva i skupa cijelih brojeva te dolazi do zaključka da imaju jednaki kardinalni broj. Način na koji to dokazuje je da svaki parni prirodan broj pridruži sa svojom polovinom u skupu cijelih brojeva te da neparne brojeva pridruži sa negativnim vrijednostima u skupu Z(n$\in$N, A=2n, B=2n-1, A+B = $|N|$)(z$\in$ Z, $|C|$ + $|D|$ = $|Z|$, C=A/2, D=-((B+1)/2). Uspoređivanjem skupa cijelih brojeva i skupa racionalnih brojeva isto tako možemo naći 1-1 korespondenciju te zaključujemo da imaju isti kardinalni broj. No, kada usporedi cijele brojeve sa kardinalnim brojem realnih brojeva primijećuje da je nešto drugačije. Pomoću Cantorovog dijagonalnog postupka možemo dokazati da je skup realnih brojeva veći nego kardinalni broj cijelih brojeva pa njezin kardinalni broj označujemo sa $\aleph_1$ . Hipoteza kontinuuma postavlja pitanje ima li skup sa kardinalnim brojem između $\aleph_0$ i $\aleph_1$. Matematički bi to napisali da ne postoji A: $\aleph_0$ $<$ $|A|$ $<$ $\aleph_1$  Cantor je bio uvjeren da je njegova teorija točna i pokušavao je dugi niz godina dokazati da je hipoteza kontinuuma točna, no nije to mogao dokazati. Kasnije Kurt G\"{o}del uzima hipotezu kontinuuma i dokazuje da sa trenutačnim matematičkim znanjem se ne može dokazati njezina istinitost ili lažnost tj. dokazao je da je nedokaziva . Nakon njega Paul Cohen izdaje svoja istraživanja te on potvrđuje da je hipoteza kontinuuma neovisna o Zermelo-Fraenkelovoj teoriji skupova.
+
+\section{Neovisnost hipoteze kontinuuma}
+Paul J. Cohen dokazuje da je hipoteza kontinuuma neovisna od Zermelo-Fraenkelove teorije kojoj je dodan aksiom izbora pomoću tehnike forsiranja. Nećemo ulaziti detaljno u tehniku forsiranja jer to nije tema našeg rada, no vrijedno ju je spomenuti. Cohen govori kako je nemoguće izvesti hipotezu kontinuuma iz ijednog aksioma ZF teorije, niti aksioma izbora. On uvrštava aksiom teorije skupova negacije hipoteze kontinuuma i tijekom toga ne pronalazi proturiječnost hipotezi kontinuuma. Dodavajući teoriju ili negaciju teorije ne mijenja ishod, stoga je hipoteza neovisna od ZF teorije skupova i njezinih aksioma.
+\section{Literatura}
+
+\href{https://books.google.hr/books?hl=hr&lr=&id=Z4NCAwAAQBAJ&oi=fnd&pg=PP1&dq=the+continuum+hypothesis&ots=mOCipFbUby&sig=aADZAgZJi-_vNOQk6u2WaxqZHCw&redir_esc=y#v=onepage&q=the%20continuum%20hypothesis&f=false}{Paul J. Cohen, \emph{Set Theory and the Continuum Hypothesis}, 1966.}
+
+\href{https://www.pnas.org/doi/epdf/10.1073/pnas.50.6.1143}{Paul J. Cohen, \emph{Mathematics}, 1963.}
+
+\href{https://plato.stanford.edu/entries/continuum-hypothesis/?fbclid=IwAR0WxsujexRFoO9fqX2AoosC_mZzYmqzp5T54hexrVuUJxt_O_onGYMNKcI}{Peter Koellner, \emph{Stanford Encyclopedia of Philosophy, The Continuum Hypothesis}, 2013.}
+
+\href{https://www.britannica.com/biography/Georg-Ferdinand-Ludwig-Philipp-Cantor}{Herbert Enderton, \emph{Continuum hypothesis, Axiom of Choice, Britannica}, 2006.}
+
+\href{https://www.simonsfoundation.org/2020/05/06/hilberts-problems-23-and-math/}{Simons foundation, \emph{Hilbert's Problems: 23 and Math, 2020.}}
+\end{document}
